@@ -7,15 +7,15 @@ package com.zz.designpattern.create.singleinstance;
  * 如果很耗费资源，可以考虑使用这个来把过程提前，而不是等到使用的的时候再加载
  * 如果有OOM的问题这样也可以提早暴露出来
  */
-public class HungrySingleInstance {
+public class Hungry {
 
-    private static HungrySingleInstance INSANCE = new HungrySingleInstance();
+    private static Hungry INSANCE = new Hungry();
 
-    private HungrySingleInstance() {
+    private Hungry() {
 
     }
 
-    public static HungrySingleInstance getInstance() {
+    public static Hungry getInstance() {
         return INSANCE;
     }
 }
