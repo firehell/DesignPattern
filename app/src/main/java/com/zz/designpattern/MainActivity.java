@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.zz.designpattern.adapter.MainAdapter;
 import com.zz.designpattern.create.SingleInstance;
+import com.zz.designpattern.create.builder.User;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,6 +39,12 @@ public class MainActivity extends BaseActivity {
         mRv.setLayoutManager(layoutManager);
         mAdapter = new MainAdapter();
         mRv.setAdapter(mAdapter);
+
+        User user = new User.UserBuilder()
+                .setAddress("dddd")
+                .setName("ad")
+                .setSex("man")
+                .build();
     }
 
     @Override
