@@ -2,7 +2,7 @@
 
  **设计模式的具体实现代码，加入了一些描述来帮助更好的理解同一个模式的不同实现方式的区别**
 
-[文档](https://github.com/firehell/DesignPattern/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
+[设计模式文档](https://github.com/firehell/DesignPattern/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
 
 ### 创造型
 
