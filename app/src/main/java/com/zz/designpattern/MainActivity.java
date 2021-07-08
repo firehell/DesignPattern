@@ -1,6 +1,5 @@
 package com.zz.designpattern;
 
-import android.app.ActionBar;
 import android.content.Intent;
 
 import androidx.recyclerview.widget.LinearLayoutManager;
