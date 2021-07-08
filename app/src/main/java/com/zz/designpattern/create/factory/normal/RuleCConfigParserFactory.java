@@ -1,4 +1,4 @@
-package com.zz.designpattern.create.factory;
+package com.zz.designpattern.create.factory.normal;
 
 
 import com.zz.designpattern.create.factory.sample.ConfigC;
