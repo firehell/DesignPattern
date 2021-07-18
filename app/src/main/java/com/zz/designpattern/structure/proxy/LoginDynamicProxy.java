@@ -7,7 +7,7 @@ import java.lang.reflect.Proxy;
 /**
  * @author zhangzhao
  * @date 2021/7/9 10:55 上午
- * @describes
+ * @describes 动态代理
  */
 public class LoginDynamicProxy {
 
