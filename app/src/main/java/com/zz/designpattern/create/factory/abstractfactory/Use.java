@@ -8,6 +8,6 @@ package com.zz.designpattern.create.factory.abstractfactory;
 public class Use {
 
     public static void main(String[] args) {
-        IRuleParser parser = new ParserFactoryB().creasteRuleParser();
+        IRuleParser parser = new ParserFactoryFactoryB().createRuleParser();
     }
 }

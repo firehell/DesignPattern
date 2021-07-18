@@ -3,9 +3,9 @@ package com.zz.designpattern.create.factory.abstractfactory;
 /**
  * @author zhangzhao
  * @date 2021/7/8 1:29 下午
- * @describes
+ * @describes 实现抽象工厂的子类直接实现抽象工厂中的分类工厂创建
  */
-public class ParserFactoryA implements IParser{
+public class ParserFactoryFactoryA implements IParserFactory {
 
     @Override
     public ISystemParser createSystemParser() {
@@ -13,7 +13,7 @@ public class ParserFactoryA implements IParser{
     }
 
     @Override
-    public IRuleParser creasteRuleParser() {
-        return null;
+    public IRuleParser createRuleParser() {
+        return new JsonRuleParser();
     }
 }

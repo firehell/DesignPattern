@@ -5,7 +5,7 @@ package com.zz.designpattern.create.factory.abstractfactory;
  * @date 2021/7/8 1:29 下午
  * @describes
  */
-public class ParserFactoryC implements IParser{
+public class ParserFactoryFactoryC implements IParserFactory {
 
     @Override
     public ISystemParser createSystemParser() {
@@ -13,7 +13,7 @@ public class ParserFactoryC implements IParser{
     }
 
     @Override
-    public IRuleParser creasteRuleParser() {
+    public IRuleParser createRuleParser() {
         return null;
     }
 }
